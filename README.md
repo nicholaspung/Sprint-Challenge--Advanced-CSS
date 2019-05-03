@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive website: has fixed elements for different viewport sizes (specific breakpoints)
+    Fully reponsive website: elements are responsive to all different viewport sizes
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first is to create a website with mobile view in mind first. What that means is you want mobile users to have a website that is user-friendly and has a good user experience before creating a desktop view, as the mobile view almost always scales well into to desktop view, even if you don't do anything else.
+    Desktop first is to create a website with the desktop view in mind first. With desktop view, when you scale down into mobile view, a lot of elements getting jumbled due to the design not having mobile specifications.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    It gives the default font-size a % based on the default browser font-size, which lets the `rem` units also scale with that
+    percentage, thus giving making `rem` units responsive to the browser.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is like a program you code in, that is easier to code and outputs regular CSS files without the hassle of needing to deal with repeat code in regular CSS.
+
+    Preprocessing is like adding computer science elements into CSS. You code in the preprocessor in order to make your life easier when dealing with CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    I like variables, and using parametric mixins under that. Currently, no concept about preprocessing gives me the most trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -128,7 +143,7 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
 
 * [x] Create a fixed navigation and add some opacity to the background
 
