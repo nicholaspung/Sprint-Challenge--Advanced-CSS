@@ -85,6 +85,13 @@
         color: white;
         font-weight: bold;
         border-radius: 5px;
+        .btn-border(white);
+
+        &:hover {
+          background: white;
+          color: black;
+          .btn-border(black);
+        }
 
         @media only screen and @phone {
           .btn-mixin(100%, 30px);

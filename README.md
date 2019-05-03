@@ -104,13 +104,13 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Main Content Styles: Use the `home-page.less` file for styling
 
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
 * [x] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
 * [x]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [x] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
@@ -118,7 +118,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
