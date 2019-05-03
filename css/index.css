@@ -192,6 +192,7 @@ nav .nav-elements a {
 @media only screen and (min-width: 800px) {
   nav .nav-elements {
     width: 800px;
+    padding: 0 165px;
     margin: auto;
   }
 }
