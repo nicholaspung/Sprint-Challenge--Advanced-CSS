@@ -173,12 +173,24 @@ nav h1 {
 nav .nav-elements {
   padding: 0 20%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 nav .nav-elements a {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
+}
+@media only screen and (max-width: 500px) {
+  nav .nav-elements {
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 800px) {
+  nav .nav-elements {
+    width: 800px;
+    margin: auto;
+  }
 }
 footer {
   color: #22283B;
